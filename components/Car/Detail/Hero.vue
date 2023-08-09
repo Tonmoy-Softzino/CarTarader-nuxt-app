@@ -14,7 +14,7 @@
               <p class="mr-2">|</p>
               <p class="mr-2">63,473 miles</p>
             </div>
-            <div class="font-bold text-2xl text-green-500">$45,434</div>
+            <div class="font-bold text-2xl text-slate-700"><span class="text-yellow-600">$</span> 45,434</div>
           </div>
         </div>
 </template>

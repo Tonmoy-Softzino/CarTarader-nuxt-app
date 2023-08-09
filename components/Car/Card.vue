@@ -16,7 +16,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
                 </div>
-                <h1 class="mt-auto text-xl text-red-800">$45,678</h1>
+                <h1 class="mt-auto text-xl text-green-700"><span class="text-yellow-600">$</span> 45,678</h1>
               </div>
             </div>
           </div>

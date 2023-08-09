@@ -1,6 +1,6 @@
-<script setup>
-    import CarSearchBar from './Car/SearchBar.vue'
-</script>
+<!-- <script setup>
+  
+</script> -->
 
 <template>
     <div class="relative h-screen w-100 bg-no-repeat bg-cover bg-bottom bg-[url('/Users/tonmoy/Desktop/cartreader-app/assets/css/images/erik-mclean-AaYAElNOxsQ-unsplash.jpg')]">
@@ -12,6 +12,6 @@
           <CarSearchBar />
         </div>
       </div>
-      <div class="z-1 w-full h-full absolute opacity-70 bg-black"></div>
+      <div class="z-1 w-full h-full absolute opacity-40 bg-black"></div>
     </div>
 </template>

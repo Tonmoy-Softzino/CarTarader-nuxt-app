@@ -1,6 +1,7 @@
 <script setup>
-    import Navbar from '../components/Navbar.vue';
-    import HomePageBody from '../components/HomePageBody.vue';
+    useHead({
+        title: "CarTreader"
+    })
 </script>
 
 <template>
