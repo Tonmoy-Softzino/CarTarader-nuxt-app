@@ -6,7 +6,6 @@
 
 <template>
     <div>
-        <Navbar />
         <HomePageBody />
     </div>
 </template>
