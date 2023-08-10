@@ -1,5 +1,5 @@
 <template>
-    <div class="shadow border w-64 mr-10 z-30 h-[12rem]">
+    <div class="shadow border w-1/2 mr-10 z-30 h-[12rem]">
           <div
             class="p-5 flex justify-between cursor-pointer border-b relative"
           >
