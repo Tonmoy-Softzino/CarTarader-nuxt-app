@@ -7,7 +7,7 @@
       "seats": 5,
       "miles": "14,666",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et laboriosam!"
+      "description": "Lorem ipsum dolor adipisicing elit. Debitis odio et laboriosam!"
     },
     {
       "id": 2,
@@ -17,7 +17,7 @@
       "seats": 5,
       "miles": "53,666",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit et laboriosam! Numquam ut rem, blanditiis est rerum tenetur maxime delectus"
+      "description": "Lorem ipsum et lorem laboriosam! Numquam ut rem, blanditiis est rerum tenetur maxime delectus"
     },
     {
       "id": 3,

@@ -14,7 +14,12 @@ const { toTitleCase} = useUtilities();
 useHead({
   title: toTitleCase(route.params.name)
 })
-
+if(!car.value){
+  throw createError({
+    statusCode: 404,
+    message: `Car not found of id ${route.params.id}`
+  })
+}
 
 definePageMeta({
   layout: "custom",
@@ -22,7 +27,7 @@ definePageMeta({
 </script>
 
 <template>
-    <div v-if="car">
+    <div>
       <CarDetailHero :car="car"/>
 
       <CarDetailAttributes :features = "car.features"/>

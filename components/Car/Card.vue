@@ -6,7 +6,7 @@ const props = defineProps({
 
 <template>
   <div
-    class="w-full shadow border overflow-auto mb-5 h-[12.2rem] cursor-pointer" @click="navigateTo(`/car/${car.name}-${car.id}`)"
+    class="w-full shadow border overflow-hidden mb-5 h-[12.2rem] cursor-pointer" @click="navigateTo(`/car/${car.name}-${car.id}`)"
   >
     <div class="flex h-full">
       <img
@@ -28,8 +28,3 @@ const props = defineProps({
     </div>
   </div>
 </template>
-<style scoped>
-  /* p{
-    overflow: scroll;
-  } */
-</style>
