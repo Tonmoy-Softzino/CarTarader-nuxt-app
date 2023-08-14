@@ -1,4 +1,6 @@
 <script setup>
+const {brands} = useCars();
+
 const modal = ref({
   brand: false,
   location: false,
@@ -23,6 +25,11 @@ const onChangeLocation = () => {
   updateModal("location");
   navigateTo(`/city/${city.value}/car/${router.params.brand}`);
 };
+
+const onChangeBrand = (brand) => {
+  updateModal('brand');
+  navigateTo(`/city/${router.params.city}/car/${brand}`)
+}
 </script>
 
 <template>
@@ -47,7 +54,12 @@ const onChangeLocation = () => {
     </div>
     <div class="p-5 flex justify-between cursor-pointer border-b relative">
       <h3>Brand</h3>
-      <h3 class="text-blue-800 capitalize">Toyota</h3>
+      <h3 class="text-blue-800 capitalize" @click="updateModal('brand')">{{ router.params.brand || "Any" }}</h3>
+      <div
+        class="absolute border shadow left-56 p-5 top-1 -m-1 w-[600px] flex justify-between flex-wrap bg-white" v-if="modal.brand"
+      >
+        <h4 class="w-1/3" v-for="brand in brands" @click="onChangeBrand(brand)">{{ brand }}</h4>
+    </div>
     </div>
     <div class="p-5 flex justify-between cursor-pointer border-b relative">
       <h3>Price</h3>
